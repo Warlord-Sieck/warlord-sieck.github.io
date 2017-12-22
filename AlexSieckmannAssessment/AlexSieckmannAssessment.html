@@ -7,14 +7,18 @@
 
         <style>
             
-            main {
+            body {
                 background-image: url(https://i.imgur.com/54bYRnb.jpg);
-                background-size: 100%;
+                background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center bottom;
-                overflow: hidden;
+                overflow-y: hidden;
                 width: 100vw;
                 height: 100vh;
+                max-width: 100%;
+                box-sizing: border-box;
+                margin: 0px;
+                
             }
             
             span {
@@ -27,7 +31,6 @@
                 font-family: 'Montserrat', sans-serif;
                 font-size: 9vh;
                 text-align: left;
-                white-space: nowrap;
                 text-shadow: 2px 2px 0px #000000;
 
             }
@@ -43,7 +46,6 @@
                 
             }
             .navbar {
-                overflow: hidden;
                 position: fixed;
                 bottom: 0;
                 width: 100%;
@@ -70,19 +72,17 @@
                 background-color: #4CAF50;
                 color: orange;
             }
-
             .main {
                 padding: 16px;
                 margin-bottom: 30px;
-            }
-            
-            }
+}
         </style>
+    
      <body>
-     <main>
+     
         <h1><span>Orange</span> is the New <span2>Cat</span2></h1>
         <p><b>only on <img src="https://i.imgur.com/sDgrN2W.jpg" class = "Netflix" align ="middle"></b></p>
-    </main>
+         
         <div class="navbar">
   <a href="#home" class="active">Home</a>
   <a href="#schedule">Schedule</a>
